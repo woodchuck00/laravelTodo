@@ -9,6 +9,8 @@ uses MongoDB for database
 files edited:
 * app/Http/Controllers/TodoController.php
 * app/Todo.php
+* config/app.php
+* config/database.php
 * resources/js/components/todoList.vue
 * resources/js/app.js
 * resources/sass/app.scss
