@@ -1,7 +1,9 @@
 # laravelTodo
 
 uses Laravel PHP for backend
+
 uses Vuejs for frontend 
+
 uses MongoDB for database
 
 files edited:
