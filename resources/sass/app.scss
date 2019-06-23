@@ -1,0 +1,98 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// Bulma
+@import "~bulma/bulma.sass";
+
+.todo {
+  padding: 20px 50px;
+  
+  div {
+    height: 70px;
+
+    h1 { 
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    a.button.is-success {
+      display: block;
+      margin-top: 10px;
+      width: 100px;
+      margin-top: 10px;
+      float: right;
+    }
+  } 
+
+  li {
+    list-style-type: none;
+    padding: 5px 10px;
+    background: lightslategrey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    input {
+      width: unset;
+    }
+
+    span {
+      padding: 0 10px;
+    }
+
+    .buttons {
+      margin-left: auto;
+    }
+  }
+}
+
+.completed {
+  h1 { 
+    text-align: center;
+  }
+
+  input {
+    width: unset;
+  }
+
+  a.button.is-success {
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    margin-top: 10px;
+    float: right;
+  }
+} 
+
+li {
+  list-style-type: none;
+  padding: 5px 10px;
+  background: lightslategrey;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  input {
+    width: unset;
+  }
+
+  span {
+    padding: 0 10px;
+  }
+
+  .buttons {
+    margin-left: auto;
+  }
+}
+
+
+
